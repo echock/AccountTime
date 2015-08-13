@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              android:orientation="vertical"
+             >
+
+
+   <EditText
+       android:id="@+id/time"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:gravity="bottom"
+       android:hint="Please input what you want"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取时间"
+        android:id="@+id/getTime"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始计时"
+        android:id="@+id/startTime"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止计时"
+        android:id="@+id/stopTime"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"/>
+
+
+</LinearLayout>
